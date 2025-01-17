@@ -1,0 +1,106 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(144, 96, 188);
+    display: flex;
+    flex-direction: column; 
+}
+.topnav {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center; 
+    background-color: #e6a00a;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    padding: 10px 0; 
+}
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 10px; 
+    text-decoration: none;
+    font-size: 24px; 
+}
+.topnav a:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid #e6a00a;
+}
+.topnav a.active {
+    background-color: #e6a00a;
+    color: white;
+}
+.topnav .logo img {
+    height: 50px;
+    width: 50px;
+}
+#text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#text h1 {
+    text-align: center;
+    font-size: 80px; 
+    color: white;
+    text-decoration: underline;
+    margin-top: 90px;
+}
+#text h2 {
+    color: white;
+    font-size: 30px;
+    text-indent: 20px;
+}
+#text ul {
+    color:#e6a00a;
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+/*Formarea marcatorului de tip imagine, in loc de disc sau alta forma*/
+#text ul li {
+    list-style-type: none;
+    background-image: url("LWLogo.jpg");
+    background-position: left;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    text-indent: 20px;
+}
+#text a {
+    color: white;
+}
+#text a:hover {
+    color: #e6a00a;
+}
+#text p {
+    text-indent: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+    color:white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#GaleriaLW {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    max-width: 1200px; 
+    padding: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#GaleriaLW img {
+    width: 100%; 
+    height: 100%; 
+    border-radius: 8px; 
+}
+#ImagineFixaLW img{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    margin-left: 92%;
+    bottom: 40%;
+}

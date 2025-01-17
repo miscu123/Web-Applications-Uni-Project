@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="AutoDLogo.jpg">
+        <link rel="stylesheet" href="Start.css">
+        <script src="FunctiiProiect.js" defer></script>
+        <title>AutoD</title>
+    </head>
+    <body>   
+        <div id="Fundal"></div> 
+        <!--Aici creez navigatia de sus cu toate paginile pentru a fi usor de accesat-->
+        <div class="topnav">
+            <a href="StartPage.html" class="logo"><img src="AutoDLogo.jpg" alt="AutoDeal Logo"></a>
+            <a href="Mansory.html" class="nav">Mansory</a>
+            <a href="Brabus.html" class="nav">Brabus</a>
+            <a href="Tech Art.html" class="nav">Tech Art</a>
+            <a href="Hennessey.html" class="nav">Hennessey</a>
+            <a href="RUF.html" class="nav">RUF</a>
+            <a href="Liberty Walk.html" class="nav">Liberty Walk</a>
+            <a href="RWB.html" class="nav">RWB</a>
+            <a href="Tabel Istoric.html" class="nav">Tabel Istoric</a>
+            <a href="Formular.html" class="nav">Formular</a>
+        </div>
+        <div id="Titlu-Principal">AutoD</div>  
+        <!-- Lista derulanta-->
+        <div id="Search-Box"> Căutare
+            <select id="categoria">
+                <option value="">Toate categoriile</option>
+                <option value="Mansory"> Mansory</option>
+                <option value="Brabus"> Brabus</option>
+                <option value="Tech Art"> Tech Art</option>
+                <option value="Hennessey"> Hennessey</option>
+                <option value="RUF"> RUF</option>
+                <option value="Liberty Walk"> Liberty Walk</option>
+                <option value="Gemballa"> Gemballa</option>
+                <option value="MTM"> MTM</option>
+                <option value="FAB Design"> FAB Design</option>
+                <option value="Rinspeed"> Rinspeed</option>
+                <option value="RENNtech"> RENNtech</option>
+                <option value="Rauh-WELT BEGRIFF (RWB)"> Rauh-WELT BEGRIFF (RWB)</option>
+                <option value="Alpina"> Alpina</option>
+                <option value="ABT"> ABT</option>
+                <option value="Singer Vehicle Design"> Singer Vehicle Design</option>
+                <option value="Callaway Cars"> Callaway Cars</option>
+                <option value="Koenig Specials"> Koenig Specials</option>
+            </select>
+            <!--Butoane radio-->
+            <div class="tip-tranzactie">
+                <button onclick="TipulTranzactiei('Toate')">Toate</button>
+                <button onclick="TipulTranzactiei('Second-hand')">Second-hand</button>
+                <button onclick="TipulTranzactiei('Noi')">Noi</button>
+            </div>
+            <!--La apasare vom primi alerta-->
+            <button onclick="CautaMasina()">Căutati</button>
+    </div>
+    <!--Linkuri externe catre email, facebook, document din calculator-->
+    <div id="link-uri-doc">
+        <a href="mailto:mihai.albu@ulbsibiu.ro">Trimite email</a>
+        <a href="https://www.facebook.com/marketplace/category/cars">Trimitere la facebook</a>
+        <a href="C:\Users\Lenovo\Desktop\Facultate\DAW\AlbuMihai\Vitara.jpeg">Trimitere către document</a>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="AutoDLogo.jpg">
+    <link rel="stylesheet" href="Formular.css">
+    <script src="FunctiiProiect.js" defer></script>
+    <title>AutoD: Formular</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="StartPage.html" class="logo"><img src="AutoDLogo.jpg" alt="AutoDeal Logo"></a>
+        <a href="Mansory.html" class="nav">Mansory</a>
+        <a href="Brabus.html" class="nav">Brabus</a>
+        <a href="Tech Art.html" class="nav">Tech Art</a>
+        <a href="Hennessey.html" class="nav">Hennessey</a>
+        <a href="RUF.html" class="nav">RUF</a>
+        <a href="Liberty Walk.html" class="nav">Liberty Walk</a>
+        <a href="RWB.html" class="nav">RWB</a>
+        <a href="Tabel Istoric.html" class="nav">Tabel Istoric</a>
+        <a href="Formular.html" class="nav">Formular</a>
+    </div>
+    <!-- Creez formularul pentru completare-->
+    <div id="formular">
+        <h1>Formular AutoD</h1>
+        <form>
+            <!-- Nume si prenume-->
+            <label for="nume">Nume:</label>
+            <input type="text" id="nume" name="nume" required>
+            <label for="prenume">Prenume:</label>
+            <input type="text" id="prenume" name="prenume" required>
+            <label for="mesaj">Mesaj: </label>
+            <!--Controlul text area-->
+            <textarea id="mesaj" name="mesaj" required></textarea>
+            <!--Controlul file-->
+            <label for="imagine">Adăugaţi o imagine cu maşina dvs: </label>
+            <input type="file" id="imagine">
+            <label> 
+                <p>Care sunt firmele tale favorite de pe acest site?</p>
+                <!-- Checkbox-uri-->
+            <div id="check1">
+                <input type="checkbox"> Mansory
+                <input type="checkbox"> Brabus
+                <input type="checkbox"> Tech Art
+                <input type="checkbox"> Hennessey
+            </div>
+            <div id="check2">
+                <input type="checkbox"> RUF
+                <input type="checkbox"> Liberty Walk
+                <input type="checkbox"> RWB
+            </div>
+            </label> 
+            <!-- Butoane submit si reset-->
+            <div id="submit">
+            <input type="image" img src="submit.png">
+            </div>
+            <button type="reset">Resetează formular</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="AutoDLogo.jpg">
+    <link rel="stylesheet" href="Brabus.css">
+    <script src="FunctiiProiect.js" defer></script>
+    <title>AutoD: Brabus</title>
+</head>
+<body>
+    <div id="Fundal"></div> 
+    <div class="topnav">
+        <a href="StartPage.html" class="logo"><img src="AutoDLogo.jpg" alt="AutoDeal Logo"></a>
+        <a href="Mansory.html" class="nav">Mansory</a>
+        <a href="Brabus.html" class="nav">Brabus</a>
+        <a href="Tech Art.html" class="nav">Tech Art</a>
+        <a href="Hennessey.html" class="nav">Hennessey</a>
+        <a href="RUF.html" class="nav">RUF</a>
+        <a href="Liberty Walk.html" class="nav">Liberty Walk</a>
+        <a href="RWB.html" class="nav">RWB</a>
+        <a href="Tabel Istoric.html" class="nav">Tabel Istoric</a>
+        <a href="Formular.html" class="nav">Formular</a>
+    </div>
+    <div id="text">
+        <h1>Brabus</h1>
+        <!--Linie partiala-->
+        <div id="linie-partiala">
+            <hr>
+        </div>
+        <h2>Galeria Brabus</h2>
+        <p1>&bull; Mercedes-Benz A-Class<br>&bull; Mercedes-Benz CLS<br>&bull; G-Crawler<br>&bull; Mercedes-Benz GLS<br>&bull; Mercedes-Benz S-Class<br>&bull; Mercedes-Benz SL-Class</p1>
+        <div class="GaleriaBrabus">
+            <img src="BrabusA-Class.jpg" alt="Mercedes-Benz A-Class">
+            <img src="BrabusCLS.jpg" alt="Mercedes-Benz CLS">
+            <img src="BrabusG-Crawler.jpg" alt="G-Crawler">
+            <img src="BrabusGLS.jpg" alt="Mercedes-Benz GLS" usemap="#proiect">
+            <img src="BrabusS-Class.jpg" alt="Mercedes-Benz S-Class">
+            <img src="BrabusSL-Class.jpg" alt="Mercedes-Benz SL-Class">
+        </div>
+        <!-- Aici facem maparea imaginii (prima de pe al doilea rand)-->
+        <!-- Daca apasam pe sigla masinii, vom fi redirectionati pe firma care modifica masina-->
+        <!-- Daca apasam pe masina,in stanga fata de sigla, vom fi redirectionati pe marca care fabrica masina-->
+        <map name="proiect">
+            <area shape="circle" coords="250,100,30" href="https://www.brabus.com/en-int">
+            <area shape="rect" coords="50,50,200,150" href="https://www.mercedes-benz.ro/passengercars/models/suv/gls/overview.html">
+        </map>
+        <!--Linie cu umbra-->
+        <div id="linie-umbra">
+            <hr>
+        </div>
+        <!-- Am adaugat citat-->
+        <blockquote>
+            „Brabus nu este doar un tuner de automobile, este un creator de vise. 
+            <br>Ne angajăm să oferim clienților noștri o experiență unică, personalizată, care combină inovația tehnologică cu excelența artizanală. 
+            <br>Fiecare vehicul Brabus este o capodoperă care nu doar că oferă performanțe de neegalat, 
+            <br>ci și un stil distinctiv, care îi reflectă pe proprietarii săi.
+            <br>Fie că este vorba despre puterea brută a motorului sau despre detaliile interioare fine, fiecare aspect este proiectat să impresioneze și să ofere plăcere de conducere.”
+        </blockquote>
+        <!-- Am adaugat sunetul la o pagina HTML-->
+        <div id="sunet">
+            <p>Acesta e sunetul unei evacuări Brabus: </p>
+            <audio src="Mercedes E63S Brabus 700  Crazy Exhaust Sound.mp3" controls></audio>
+        </div>    
+    </div>
+</body>
+</html>
